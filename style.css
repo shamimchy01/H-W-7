@@ -1,0 +1,50 @@
+
+body{
+    margin: 0;
+   
+}
+
+.mainmenu
+{
+    
+background-color: #0D47A1;  
+}
+
+a
+{
+    display: block;
+    text-decoration: none;
+    padding: 12px 15px;
+    color: white;
+    height: 100%;
+}
+a:hover{
+    background-color: #4FC3F7;
+
+    
+}
+ul{
+    text-align: center;
+    
+ margin:0;
+ padding:0;
+}
+li{
+    display: inline-block;
+    position: relative;
+   
+}
+.submenu
+{
+position:absolute;
+background-color: #0D47A1;
+opacity:0;
+
+
+}
+.menu:hover .submenu{
+    opacity: 1;
+    
+    
+}
+
